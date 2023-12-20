@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+}
+
+.div {
+
+    width: 691px;
+    height: 354px;
+    font-size: 50px;
+    background-image: url(../img/mount.png);
+    background-size: cover;
+    background-position: bottom center;
+
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    margin: 0%;
+    color: white;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(21, 24, 36, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.practic2 {
+    width: 357px;
+    height: 264px;
+    background-image: url(../img/Rectangle\ 12.png);
+    position: relative;
+    margin-top: 50px;
+}
+
+.sale {
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: 14px;
+    background-color: darkblue;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    position: absolute;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 21px;
+}
+
+.chair {
+   padding-top: 19px;
+   padding-bottom: 19px;
+   padding-left: 12px;
+   padding-right:12px;
+   font-size: 20px;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+width: 357px;
+background-color: rgba(5, 53, 158, 0.785);
+margin: 0;
+color: white;
+}
+
+.practic3 {
+    width: 800px;
+    height: 223px;
+    background-image: url(../img/Rectangle\ 16.png);
+    position: relative;
+    margin-top: 50px;
+}
+
+img {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+   left: 46%;
+   bottom: 35%;
+}
+.over {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(21, 34, 66, 0.577) ;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+.product {
+    width: 100px;
+    height: 235px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.product_img-wrap {
+    height: 235px;
+    width: 235px;
+    background-image: url(../img/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+}                            
+ 
+.product_cart {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: white;
+    margin-bottom: -5px;
+    margin-right:-20px ;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    transform: translateX(220%);
+}
+
+
+
+.product_cart-img {
+    width: 100%;
+    position: absolute;
+   transform:translateY(-50%) ;
+    background-image: url(../img/cart.png);
+    margin-bottom:50%;
+  
+
+}
+
+
+.product_count {
+width: 20px;
+height: 20px;
+position: absolute;
+margin-top: -5px;
+margin-right: -5px;
+text-align: center;
+background-color: red;
+color: white;
+border-radius: 50%;
+transform: translateX(340%);
+}
+.count {
+    transform: translateY(-70%);
+    color: white;
+    font-size: 20px;
+}
+
+.corzina {
+    position: absolute;
+   bottom: 18%;
+   right: 86%;
+   
+}
+
+
+
+
+ 
